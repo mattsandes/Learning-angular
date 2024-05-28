@@ -1,0 +1,4 @@
+Class and Style binds
+
+- uma forma de manipular os estilos e as classes atraves da classe
+logica do componente.
