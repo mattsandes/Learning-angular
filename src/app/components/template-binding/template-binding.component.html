@@ -72,3 +72,21 @@ Esse botão foi desativado usando a classe logica do componente.
 <input [(ngModel)]="name" />
 
 {{name}}
+
+<hr>
+
+<h2>Diretivas de atributos</h2>
+
+<!--para usar o NgClass, precisa-se do CommonModules importados no componentes-->
+<div [ngClass]="{
+    'background-blue': true
+}">
+    Classes condicionais
+</div>
+
+<!--usando estilos dinamicos-->
+<div [ngStyle]="{
+    background: 'gray'
+}">
+    Estilo dinamico
+</div>
