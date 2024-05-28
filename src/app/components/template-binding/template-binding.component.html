@@ -1,0 +1,12 @@
+<h2>Aprendendo sobre templates</h2>
+<h3>Text interpolation</h3>
+
+<!--Pode-se usar aqui cuidando com o memory leak-->
+{{name}} - {{age}} - {{sum(34, 44)}}
+
+<!--Criando validações e somas bestas no componente-->
+<p>
+    {{1 + 1}}
+    {{age < 10 ? "é maior que 1" : "não é maior que 1"}}
+</p>
+<hr>
