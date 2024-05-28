@@ -1,0 +1,4 @@
+Traget Event Name
+
+- é a capacidade de que a classe logica tem de 
+  controlar eventos dos elementos html
