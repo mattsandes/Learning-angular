@@ -9,4 +9,21 @@
     {{1 + 1}}
     {{age < 10 ? "é maior que 1" : "não é maior que 1"}}
 </p>
+
+<h2>Property binding</h2>
+
+<p>
+    Property binding
+    
+    - é quando um elemento html passa a ser controlada por uma
+    propriedade definida na classe de logica da aplicação;
+</p>
+Esse botão foi desativado usando a classe logica do componente.
+
+<!--sintaxe: <elemento [propriedade]="estado-do-angular"></elemento>-->
+<button [disabled]="isDisabled">Button</button>
 <hr>
+
+<!--Setando os valores usando os estado dentro da classe de logica-->
+<h3>Usando imagens</h3>
+<img [alt]="name" [title]="name">
