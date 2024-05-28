@@ -1,0 +1,4 @@
+O que são diretivas de atributo e estruturais
+
+- diretivas de atributos:
+    - 
