@@ -19,6 +19,7 @@
     propriedade definida na classe de logica da aplicação;
 </p>
 Esse botão foi desativado usando a classe logica do componente.
+<hr>
 
 <!--sintaxe: <elemento [propriedade]="estado-do-angular"></elemento>-->
 <button [disabled]="isDisabled">Button</button>
@@ -28,7 +29,21 @@ Esse botão foi desativado usando a classe logica do componente.
 <h3>Usando imagens</h3>
 <img [alt]="name" [title]="name">
 
+<hr>
+
 <h2>Attribute Binding</h2>
 
 <!--sintaxe: <elemento [attr.atributo-html]></elemento>-->
 <p [attr.title]="name" [attr.aria-label]="name">Lorem ipsum</p>
+
+<hr>
+
+<!--Classe criada no estilo do componente-->
+<h2>Class and Style Binding</h2>
+<p [class.background-red]="age >= 32" [class.background-blue]="age === 32">
+    {{name}}
+</p>
+
+<p [style.text-decoration]="isTextDecoration">{{age}}</p>
+
+<hr>

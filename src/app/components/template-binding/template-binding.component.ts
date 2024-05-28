@@ -11,10 +11,12 @@ export class TemplateBindingComponent {
 
   public name = "Mateus"; //isso é um estado do angular;
   public age = 32;
-
+  
   public sum(val1: number, val2: number) {
     return val1 + val2;
   }
+  
+  public isTextDecoration = this.age > 1 ? 'underline' : 'none'
 
   //essa propriedade vai ser usada para desabilitar um botão na
   //pagina html
