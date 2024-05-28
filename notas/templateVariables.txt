@@ -1,0 +1,4 @@
+Template variables
+
+- é uma forma de pegar os valores dos elementos
+e retorna-los na pagina html;
