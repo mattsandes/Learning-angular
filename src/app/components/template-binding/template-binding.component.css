@@ -1,7 +1,9 @@
 /*Criando uma classe para o background que eu defini no p no html*/
 
-:host {
-    .background-blue {
-        background: blue;
-    }
+.background-blue {
+    background: blue;
+}
+
+.background-red {
+    background: red;
 }
