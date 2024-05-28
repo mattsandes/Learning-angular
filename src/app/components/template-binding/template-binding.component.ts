@@ -12,10 +12,6 @@ export class TemplateBindingComponent {
   public name = "Mateus"; //isso é um estado do angular;
   public age = 32;
   
-  public sum(val1: number, val2: number) {
-    return val1 + val2;
-  }
-  
   public isTextDecoration = this.age > 1 ? 'underline' : 'none'
 
   //essa propriedade vai ser usada para desabilitar um botão na
@@ -31,4 +27,25 @@ export class TemplateBindingComponent {
   //     this.name = "Doutor Alex";
   //   }, 1000)
   // }
+
+  public sum() {
+    return this.age++;
+  }
+
+  public sub() {
+    return this.age--;
+  }
+
+  //criando a logica para um evento feito no formulario;
+  public onKeyDown(event : Event) {
+    console.log(event);
+  }
+
+  //criando outro metodo
+  public onMouseEvent(event: MouseEvent) {
+    return console.log({
+      clientX: event.clientX,
+      clienty: event.clientY,
+    });
+  }
 }
