@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './new-component.component.css'
 })
 export class NewComponentComponent {
+
+  public name = 'Shaolin Junior';
 }
