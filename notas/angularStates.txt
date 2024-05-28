@@ -1,0 +1,9 @@
+Estados do Angular
+
+- funcionam como se fossem variaveis nas linguagens de programação;
+
+Text interpolation:
+    - capacidade de inserir dados definidos na classe de logica,
+      para as paginas html;
+
+    
