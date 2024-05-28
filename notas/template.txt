@@ -1,0 +1,31 @@
+O que é um template:
+
+- é uma parte de uma pagina html que contem elementos html e codigos
+angular para exibir dados dinamicos;
+
+Binding:
+
+- diz respieto de como uma pagina flui entre a parte logica para
+  a intreface do usuario;
+
+- permite conectar os dados do aplicativo com os elementos html;
+
+- os binds que existem no angular:
+    - Property Binding
+    - Attribute Binding
+    - Class and style Binding
+    - Event Binding
+    - Two-ways binds
+
+- Template reference variables:
+
+- maneira de acessar elementos html dentro da parte logica da aplicação;
+
+Control Flow
+
+- é uma forma de como as controle sobre os elementos da pagina.
+permitindo repetir elementos condicionalmente;
+
+Deferrable Views
+
+- uma maneira de adiar carregamento de componentes ou estilos;
