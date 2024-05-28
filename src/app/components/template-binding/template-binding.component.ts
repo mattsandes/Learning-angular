@@ -47,6 +47,8 @@ export class TemplateBindingComponent {
   }
 
   //criando outro metodo
+  //esse metodo retorna o as cordenadas x e y de onde o mouse
+  //esta andando na tela
   public onMouseEvent(event: MouseEvent) {
     return console.log({
       clientX: event.clientX,

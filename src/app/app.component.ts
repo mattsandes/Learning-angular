@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NewComponentComponent } from './components/new-component/new-component.component';
 import { TemplateBindingComponent } from './components/template-binding/template-binding.component';
+import { TemplateVariablesComponent } from './components/template-variables/template-variables.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ import { TemplateBindingComponent } from './components/template-binding/template
     RouterOutlet,
     CommonModule,
     NewComponentComponent,
-    TemplateBindingComponent
+    TemplateBindingComponent,
+    TemplateVariablesComponent
   ],
   template:
   `
@@ -19,6 +21,7 @@ import { TemplateBindingComponent } from './components/template-binding/template
     <app-new-component />
 
     <app-template-binding />
+    <app-template-variables />
 
   `,
 })
