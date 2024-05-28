@@ -1,0 +1,7 @@
+Two way binding
+
+- é uma forma de manipular os dados em tempo real.
+
+Exemplo: imagine que voce tem um formulario, agora imagine que voce
+esta digitando nesse formulario. No momento em que voce digita nesse formulario
+os dados são exibidos em outro lugar simulataneamente.  
