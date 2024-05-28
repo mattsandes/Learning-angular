@@ -2,7 +2,7 @@
 <h3>Text interpolation</h3>
 
 <!--Pode-se usar aqui cuidando com o memory leak-->
-{{name}} - {{age}} - {{sum(34, 44)}}
+{{name}} - {{age}}
 
 <!--Criando validações e somas bestas no componente-->
 <p>
@@ -40,10 +40,27 @@ Esse botão foi desativado usando a classe logica do componente.
 
 <!--Classe criada no estilo do componente-->
 <h2>Class and Style Binding</h2>
-<p [class.background-red]="age >= 32" [class.background-blue]="age === 32">
+<p [class.background-red]="age > 32" [class.background-blue]="age < 32">
     {{name}}
 </p>
 
 <p [style.text-decoration]="isTextDecoration">{{age}}</p>
 
 <hr>
+
+<h2>Targe event name</h2>
+
+<button (click)="sum()">+</button>
+<button (click)="sub()">-</button>
+
+<input (keydown.shift.t)="onKeyDown($event)">
+
+<!--Criando um evento dentro de uma div-->
+<div style=
+    "background: red; 
+    width: 300px; 
+    height: 300px; 
+    margin-top: 10px;"
+    (mousemove)="onMouseEvent($event)">
+
+</div>
