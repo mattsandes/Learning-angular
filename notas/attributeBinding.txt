@@ -1,0 +1,3 @@
+Attribute binding
+
+- setando os atributos dos elementos apartir da classe .ts;
